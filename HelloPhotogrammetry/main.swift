@@ -155,6 +155,7 @@ struct HelloPhotogrammetry: ParsableCommand {
     private static func handleRequestProgress(request: PhotogrammetrySession.Request,
                                               fractionComplete: Double) {
         logger.log("Progress(request = \(String(describing: request)) = \(fractionComplete)")
+        print("Progress(request = \(String(describing: request)) = \(fractionComplete)")
     }
 
 }
