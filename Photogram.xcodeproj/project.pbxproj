@@ -27,7 +27,7 @@
 		3AACFD8D2CBD36EDA66607F9 /* LICENSE.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		662F77A0D8C65CF208ABB917 /* ACKNOWLEDGEMENTS.txt */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = ACKNOWLEDGEMENTS.txt; sourceTree = "<group>"; };
 		7365C4E25C9381B7EBEE3701 /* SampleCode.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = SampleCode.xcconfig; path = Configuration/SampleCode.xcconfig; sourceTree = "<group>"; };
-		7B35772F26155F6900EC1A97 /* HelloPhotogrammetry */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloPhotogrammetry; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B35772F26155F6900EC1A97 /* Photogram */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Photogram; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B35773226155F6900EC1A97 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		7B357763261566B200EC1A97 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,7 +75,7 @@
 		7B35773026155F6900EC1A97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B35772F26155F6900EC1A97 /* HelloPhotogrammetry */,
+				7B35772F26155F6900EC1A97 /* Photogram */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -91,9 +91,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B35772E26155F6900EC1A97 /* HelloPhotogrammetry */ = {
+		7B35772E26155F6900EC1A97 /* Photogram */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B35773626155F6900EC1A97 /* Build configuration list for PBXNativeTarget "HelloPhotogrammetry" */;
+			buildConfigurationList = 7B35773626155F6900EC1A97 /* Build configuration list for PBXNativeTarget "Photogram" */;
 			buildPhases = (
 				7B35772B26155F6900EC1A97 /* Sources */,
 				7B35772C26155F6900EC1A97 /* Frameworks */,
@@ -103,12 +103,12 @@
 			);
 			dependencies = (
 			);
-			name = HelloPhotogrammetry;
+			name = Photogram;
 			packageProductDependencies = (
 				7B35773A261560A700EC1A97 /* ArgumentParser */,
 			);
 			productName = HelloPhotogrammetry;
-			productReference = 7B35772F26155F6900EC1A97 /* HelloPhotogrammetry */;
+			productReference = 7B35772F26155F6900EC1A97 /* Photogram */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -126,7 +126,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7B35772A26155F6900EC1A97 /* Build configuration list for PBXProject "HelloPhotogrammetry" */;
+			buildConfigurationList = 7B35772A26155F6900EC1A97 /* Build configuration list for PBXProject "Photogram" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -142,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B35772E26155F6900EC1A97 /* HelloPhotogrammetry */,
+				7B35772E26155F6900EC1A97 /* Photogram */,
 			);
 		};
 /* End PBXProject section */
@@ -307,7 +307,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B35772A26155F6900EC1A97 /* Build configuration list for PBXProject "HelloPhotogrammetry" */ = {
+		7B35772A26155F6900EC1A97 /* Build configuration list for PBXProject "Photogram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B35773426155F6900EC1A97 /* Debug */,
@@ -316,7 +316,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B35773626155F6900EC1A97 /* Build configuration list for PBXNativeTarget "HelloPhotogrammetry" */ = {
+		7B35773626155F6900EC1A97 /* Build configuration list for PBXNativeTarget "Photogram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B35773726155F6900EC1A97 /* Debug */,
