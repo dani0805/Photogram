@@ -65,7 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				7B357763261566B200EC1A97 /* README.md */,
-				7B35773126155F6900EC1A97 /* HelloPhotogrammetry */,
+				7B35773126155F6900EC1A97 /* Photogram */,
 				7B35773026155F6900EC1A97 /* Products */,
 				3FA622068595B839DAC9BC34 /* Configuration */,
 				13329AE4E82D15B3A35CBB4C /* LICENSE */,
@@ -80,12 +80,12 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B35773126155F6900EC1A97 /* HelloPhotogrammetry */ = {
+		7B35773126155F6900EC1A97 /* Photogram */ = {
 			isa = PBXGroup;
 			children = (
 				7B35773226155F6900EC1A97 /* main.swift */,
 			);
-			path = HelloPhotogrammetry;
+			path = Photogram;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
